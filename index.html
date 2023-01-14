@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2-14th-Jan-Contest-JatinKumar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h2>New Employees</h2>
+    </div>
+    <form action="#" id="form">
+        <div class="box">
+            <label for="fname">Enter Name:</label>
+            <input type="text" id="fname"  required>
+        </div>
+        <div class="box"><label for="profession">Enter Profession:</label>
+            <input type="text" id="profession" required>
+        </div>
+        <div class="box"><label for="age"> Enter age:</label>
+             <input type="number" name="age" id="age">
+        </div>
+    </form>
+        <div id="error" class="error_msg"></div>
+        <div id="success" class="succes_msg"></div>
+        <button id="submit" type="button" onclick="adding_user()">Add User</button>
+
+        <table id="myTable">
+            <tr class="hide">
+                <th>Name</th>
+                <th>Profession</th>
+                <th>Age</th>
+                <th>Delete</th>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+</body>
+</html>
